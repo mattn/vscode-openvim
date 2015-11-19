@@ -1,0 +1,47 @@
+{
+  "name": "OpenVim",
+  "version": "0.0.1",
+  "publisher": "mattn",
+  "description": "Open a current file in Vim",
+  "author": {
+    "name": "Yasuhiro Matsumoto (a.k.a mattn)"
+  },
+  "categories": ["Other"],
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattn/vscode-openvim"
+  },
+  "scripts": {
+    "vscode:prepublish": "node ./node_modules/vscode/bin/compile",
+    "compile": "node ./node_modules/vscode/bin/compile -watch -p ./"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^1.6.2",
+    "vscode": "0.10.x"
+  },
+  "engines": {
+    "vscode": "0.10.x"
+  },
+  "main": "./out/extension",
+  "extensionDependencies": [],
+  "activationEvents": [
+    "onCommand:extension.openVim"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "extension.openVim",
+        "title": "Open Vim",
+        "description": "Open current file with Vib"
+      }
+    ]
+  },
+  "readme": "# open-vim - VSCode package Beta\nOpen a current file in Vim.\n\n![](https://raw.githubusercontent.com/mattn/open-vim/master/open-vim.gif)\n\n## Installation\n\n```\n$ apm install open-vim\n```\n\n## Usage\nThe following commands are available for you to remap and/or run via the command palette.\n\n* `open-vim:open` - Open a current file in Vim.\n\n## Back To The Future\n\n```vim\ncommand! OpenVSCode !start code %\n```\n\n## This is based on open-emacs\n\nhttps://github.com/yoshiori/open-emacs\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/mattn/open-vim/issues"
+  }
+}

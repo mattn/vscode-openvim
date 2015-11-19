@@ -1,6 +1,6 @@
 {
   "name": "OpenVim",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "mattn",
   "description": "Open a current file in Vim",
   "author": {
@@ -40,9 +40,8 @@
       }
     ]
   },
-  "readme": "# open-vim - VSCode package Beta\nOpen a current file in Vim.\n\n![](https://raw.githubusercontent.com/mattn/open-vim/master/open-vim.gif)\n\n## Installation\n\n```\n$ apm install open-vim\n```\n\n## Usage\nThe following commands are available for you to remap and/or run via the command palette.\n\n* `open-vim:open` - Open a current file in Vim.\n\n## Back To The Future\n\n```vim\ncommand! OpenVSCode !start code %\n```\n\n## This is based on open-emacs\n\nhttps://github.com/yoshiori/open-emacs\n",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/mattn/open-vim/issues"
+    "url": "https://github.com/mattn/vscode-openvim/issues"
   }
 }

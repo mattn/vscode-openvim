@@ -11,7 +11,7 @@ export function activate(ctx: vscode.ExtensionContext): void {
     if (fileName) {
       cp.execFile(vim, [fileName], {}, (err, stdout, stderr) => {
         if (err && (<any>err).code == "ENOENT")
-          vscode.window.showErrorMessage("'gvim' command is not available. you change modify openvim.execFile on user configuration.");
+          vscode.window.showErrorMessage("'gvim' command not available. you change modify openvim.execFile on user configuration.");
       });
     }
   }));

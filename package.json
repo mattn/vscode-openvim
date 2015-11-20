@@ -38,7 +38,18 @@
         "title": "Open Vim",
         "description": "Open current file with Vib"
       }
-    ]
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "OpenVim configuration",
+      "properties": {
+        "openvim.executablePath": {
+          "type": "string",
+          "default": null,
+          "description": "Specifies the executable path for vim. Note to run terminal if you use CUI version of vim."
+        }
+      }
+    }
   },
   "readmeFilename": "README.md",
   "bugs": {

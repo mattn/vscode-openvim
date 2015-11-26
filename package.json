@@ -1,12 +1,12 @@
 {
   "name": "OpenVim",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "mattn",
   "description": "Open a current file in Vim",
   "author": {
     "name": "Yasuhiro Matsumoto (a.k.a mattn)"
   },
-	"icon": "images/vim.png",
+  "icon": "images/vim.png",
   "categories": ["Other"],
   "license": "MIT",
   "private": true,
@@ -36,7 +36,7 @@
       {
         "command": "extension.openVim",
         "title": "Open Vim",
-        "description": "Open current file with Vib"
+        "description": "Open current file with Vim"
       }
     ],
     "configuration": {

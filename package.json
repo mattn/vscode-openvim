@@ -1,6 +1,6 @@
 {
   "name": "OpenVim",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "publisher": "mattn",
   "description": "Open a current file in Vim",
   "author": {
